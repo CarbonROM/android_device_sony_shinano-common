@@ -20,8 +20,11 @@
 #include "init_board_common.h"
 #include "init_prototypes.h"
 
-// Constants: device LEDs
-#include "sony_lights.h"
+#ifdef wled
+#include "sony_lights_wled.h"
+#else
+#include "sony_lights_lcd.h"
+#endif
 
 // Constants: devices controls
 #define DEV_BLOCK_FOTA_NUM 16
@@ -57,6 +60,13 @@ public:
         write_int(LED_RED_PATH "brightness", r);
         write_int(LED_GREEN_PATH "brightness", g);
         write_int(LED_BLUE_PATH "brightness", b);
+    }
+     // Board: Finish init
+    virtual void finish_init()
+    {
+        // Rename init
+        unlink("/init");
+        rename("/init.real", "/init");
     }
 };
 
