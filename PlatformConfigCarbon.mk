@@ -12,8 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Proprietary files
-SONY_AOSP ?= true
-
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += device/sony/shinano-common/include
