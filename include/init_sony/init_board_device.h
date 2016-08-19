@@ -61,13 +61,6 @@ public:
         write_int(LED_GREEN_PATH "brightness", g);
         write_int(LED_BLUE_PATH "brightness", b);
     }
-     // Board: Finish init
-    virtual void finish_init()
-    {
-        // Rename init
-        unlink("/init");
-        rename("/init.real", "/init");
-    }
 };
 
 #endif //__INIT_BOARD_DEVICE_H__
