@@ -13,4 +13,4 @@
 # limitations under the License.
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH += device/sony/shinano-common/include
+# TARGET_SPECIFIC_HEADER_PATH += device/sony/shinano-common/include
