@@ -12,13 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Platform path
+PLATFORM_COMMON_PATH := device/sony/shinano-common
+
 $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 $(call inherit-product, device/sony/common/common.mk)
 $(call inherit-product, device/sony/common/common_carbon.mk)
 
 SOMC_PLATFORM := shinano
 
-SONY_ROOT := device/sony/shinano-common/rootdir
+SONY_ROOT := $(PLATFORM_COMMON_PATH)/rootdir
 
 # Media
 PRODUCT_COPY_FILES += \
