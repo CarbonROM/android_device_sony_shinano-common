@@ -22,6 +22,7 @@ on boot
     write /sys/class/android_usb/android0/iSerial ${ro.serialno}
     write /sys/class/android_usb/android0/iManufacturer ${ro.product.manufacturer}
     write /sys/class/android_usb/android0/iProduct ${ro.product.model}
+    setprop sys.usb.ffs.aio_compat 1
 
 on charger
     write /sys/class/android_usb/android0/iSerial ${ro.serialno}
