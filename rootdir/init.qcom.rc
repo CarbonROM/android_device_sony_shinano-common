@@ -391,7 +391,7 @@ service macaddrsetup /system/bin/macaddrsetup /sys/devices/platform/bcmdhd_wlan/
     oneshot
 
 service netmgrd /system/bin/netmgrd
-    class late_start
+    class main
     user root
     group root wifi wakelock radio inet
 
