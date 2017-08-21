@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 9604B6AC 1503342623 +0530\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_sony_shinano-common\nnonce 1503342630-1ADA7AF372B5070662D7B932098CED63A72038D4\n\n0000000000000000000000000000000000000000 bc4b68226aaf6ff9a8382483bcbad061411f928f refs/for/cr-5.1/rhine-bringup\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v2\n\niQEcBAABCAAGBQJZmzAfAAoJEJS8URaWBLasVZkH/3SoGUZEfCh2yF0bl7EF1emm\ntGz64uSYCBi+lSmw6tx06YToZKQeyI67x9/DqYy2bqmCcmXYHMOqw1ZrvvQSuT5U\nEv4kAx2n9eA06TFy0bhmde0JeYtubOBfhLD0ALcHiFEcpqmIG3GuRho5SUTAuO5I\nAutx7SaR9tgSXqgq2NFWKk0J3IVf8P2Q+p/UIMhW2w9Z53/uwfy+fHNzOKRCJhL7\njtBu8z3R+E4G2sqz6NW7bBeDbt7fw9O4EGVpXZd2fIDp3mz/xpJnVD7Slfh0DShQ\n+K4I6rM3NUvNW1b0PR1vd46YOp1tkxLATlQsBdTZf5avVbL4zg6S5eCDlTmCc24\u003d\n\u003dV8tI\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
