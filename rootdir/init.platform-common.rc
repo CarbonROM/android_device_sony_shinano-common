@@ -10,7 +10,7 @@ on boot
     chmod 0660 /sys/devices/virtual/input/max1187x/glove
 
 # TFA9890 AMP
-service tfa9890_amp /system/bin/tfa9890_amp
+service tfa9890_amp /system/vendor/bin/tfa9890_amp
     class late_start
     user root
     group root
