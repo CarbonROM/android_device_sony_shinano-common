@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 3B3CE39DC981143E2E29B65A795F73D22FB93FAE 1511471387 +0100\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_sony_shinano-common\nnonce 1511471400-88C5EA2482264B6AC651D9295B5EE54EB72D8545\n\n0000000000000000000000000000000000000000 a83d21a501178664de7986f3a12ffb10630bce8c refs/for/cr-6.0\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEOzzjncmBFD4uKbZaeV9z0i+5P64FAloXORsACgkQeV9z0i+5\nP65bagf+KKPb7lGjGJtRmM1xBU1ZFIwJp8NvJChrzlQ0HGLtpWE7N2OEjd1NdAHl\nP2GtLJHwJJIive5mvsxjAp5IxsWcq4a8egzp1wsEgRXagPoJRz/3l7vMkdKaUYpD\nethk3WSRwQFzohm0neAJdTruGrLeej7J7Gt/pW02VFSeLfqDuPuufDDvYOoPutaV\nWuQ5WwRvo0GNa7IBJFMuv+nM3Zr2dwM6NoJCNbrK5I4SNA3fGrJ0VtUYMe7jn7BQ\nYFCbf3ieE/p1Ryenjyx9eHqhVsija+9gcdugfkNZlEzL0ebCotybPMMeRHhRCyLU\nqkV5lWqL5YriiP8gguRxpj6p4ov6cw\u003d\u003d\n\u003d9DRM\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
