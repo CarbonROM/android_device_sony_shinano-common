@@ -105,4 +105,7 @@
          The duplication is necessary, because this information is used before the features are
          available to the system.-->
     <bool name="config_freeformWindowManagement">true</bool>
+    
+     <!-- Wheter to enable doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
 </resources>
