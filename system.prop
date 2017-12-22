@@ -48,9 +48,9 @@ ro.qcom.ad=1
 ro.qcom.ad.calib.data=/system/etc/ad_calib.cfg
 
 # Audio config
-ro.qc.sdk.audio.fluencetype=fluence
+ro.qc.sdk.audio.ssr=false
+ro.qc.sdk.audio.fluencetype=none
 persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=false
-persist.audio.fluence.audiorec=true
-persist.audio.fluence.speaker=true
-persist.audio.handset.mic.type=analog
+persist.audio.fluence.speaker=true 
+use.voice.path.for.pcm.voip=true
