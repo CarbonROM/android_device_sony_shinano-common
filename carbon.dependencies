@@ -23,6 +23,6 @@
     "remote": "gh",
     "repository": "rcstar6696/packages_apps_ancquicksettings",
     "target_path": "packages/apps/ANCQuickSettings",
-    "revision": "cr-6.1"
+    "revision": "master"
   }
 ]
