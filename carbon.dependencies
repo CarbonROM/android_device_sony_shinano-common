@@ -11,7 +11,7 @@
     "remote": "gh",
     "repository": "omnirom/android_hardware_broadcom_fm",
     "target_path": "hardware/broadcom/fm",
-    "revision": "android-9.0"
+    "revision": "android-8.1"
   },
   {
     "remote": "gh",
