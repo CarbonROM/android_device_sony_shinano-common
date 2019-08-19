@@ -8,10 +8,8 @@
     "target_path": "kernel/sony/msm8974"
   },
   {
-    "remote": "gh",
-    "repository": "omnirom/android_hardware_broadcom_fm",
-    "target_path": "hardware/broadcom/fm",
-    "revision": "android-9.0"
+    "repository": "CarbonROM/android_hardware_broadcom_fm",
+    "target_path": "hardware/broadcom/fm"
   },
   {
     "remote": "gh",
