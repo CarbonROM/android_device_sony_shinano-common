@@ -18,6 +18,7 @@
 /(vendor|system/vendor)/bin/credmgrd                      u:object_r:credmgrd_exec:s0
 /(vendor|system/vendor)/bin/credmgrfirstboot\.sh          u:object_r:credmgrd_exec:s0
 /(vendor|system/vendor)/bin/suntrold                      u:object_r:credmgrd_exec:s0
+/(vendor|system/vendor)/bin/suntrold.sh                   u:object_r:credmgrd_exec:s0
 
 # Modem
 /(vendor|system/vendor)/bin/mlog_qmi_service              u:object_r:mlog_qmi_exec:s0
